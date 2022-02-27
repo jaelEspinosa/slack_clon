@@ -1,0 +1,36 @@
+header{
+    background-color:$backgroundLigth;
+}
+.logo{
+    width: 20px;
+}
+.menuBurger{
+    width: 20px;
+}
+
+
+.b-nav{
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+   width: 100%;
+   height: 50px;
+   h1{
+       font-size: 24px;
+   }
+   &__left{
+       display:flex;
+       gap: 10px;
+       justify-content:flex-start;
+       align-items: center;
+       padding-left: 10px;
+       
+   }
+   &__rigth{
+       display:flex;
+       justify-content:center;
+       align-items: center;
+       padding-right: 10px;
+       
+   }
+}

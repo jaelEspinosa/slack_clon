@@ -1,0 +1,102 @@
+.bloque-C{
+    padding-top: 15px;
+    background:$backgroundLigth;
+}
+
+.cuadrado{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background:$backgroundDark;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.titulo-C{
+    text-align: center;
+}
+.pasos{
+    padding-top: 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    p{
+        text-align: justify;
+        
+    }
+    .link-1{
+        color:$linkColorfont;
+    }
+}
+.ficha-contain{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;    
+}
+.ficha{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 305px;
+    height: 65vh;
+    max-height: 435px;;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    .ficha-item{
+        padding-top: 15px;
+        width: 84%;
+    }
+    .ficha-text{
+        padding-left: 23px;
+        align-self: flex-start;
+    }
+    .ficha-parrafo{
+        padding-left: 23px;
+        align-self: flex-start;
+        
+    }
+    .ficha-link{
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        color:$backgroundBlue;
+        padding-left: 23px;
+        align-self: flex-start;
+    }
+}
+.cont-circ{
+    display:flex;
+    justify-content: center;
+    column-gap: 15px;
+    align-content: center;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 305px;
+    
+    .circulo{
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        background: gray;
+        &__morado{
+            background:$backgroundDark;
+
+        }
+    }
+}
